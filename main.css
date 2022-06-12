@@ -1,0 +1,84 @@
+input[type="text"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="text"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.hero-image {
+  background-image: url("./assets/images/hero.png");
+  width: 100%;
+  height: 800px;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.navcontainer {
+  background-image: url("./assets/images/hero.png");
+  width: 100%;
+  height: 800px;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logo {
+  padding: 15px;
+  background-image: url("./assets/images/logo.svg");
+  width: 80px;
+  height: 30px;
+  left: 100px;
+  top: 20px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  border-bottom: 0.8px solid white;
+}
+
+.card-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.text-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+/* .horizontal-line {
+  border: none;
+  height: 5px;
+  background-color: white;
+} */
+
+.dropdown-local {
+  width: 500px;
+}
+
+.horizontal-line {
+  /* border: none; */
+  height: 1px;
+  color: white;
+  background-color: white;
+}
